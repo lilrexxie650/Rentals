@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="EliteDrive Luxury Motors - Luxury cars for sale and rental across the USA.">
+
+    <title>EliteDrive Luxury Motors | Premium Cars</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>ELITE</span>DRIVE
+        <small>LUXURY MOTORS</small>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cars">Our Cars</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Get In Touch</a>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO ELITEDRIVE</p>
+
+        <h1>
+            Experience The
+            <span>Extraordinary.</span>
+        </h1>
+
+        <p>
+            Discover a collection of exceptional luxury vehicles
+            available for purchase and premium rental across the USA.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#cars" class="gold-button">
+                Explore Collection
+            </a>
+
+            <a href="#about" class="outline-button">
+                Our Story
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div>
+        <h2>150+</h2>
+        <p>Luxury Vehicles</p>
+    </div>
+
+    <div>
+        <h2>12+</h2>
+        <p>Years Experience</p>
+    </div>
+
+    <div>
+        <h2>25+</h2>
+        <p>U.S. Locations</p>
+    </div>
+
+    <div>
+        <h2>5K+</h2>
+        <p>Happy Clients</p>
+    </div>
+
+</section>
+
+
+<!-- ================= CARS ================= -->
+
+<section id="cars" class="cars-section">
+
+    <div class="section-heading">
+
+        <p>OUR COLLECTION</p>
+
+        <h2>
+            Drive Something
+            <span>Exceptional</span>
+        </h2>
+
+        <p class="description">
+            Explore our carefully selected collection of premium
+            automobiles available for purchase or rental.
+        </p>
+
+    </div>
+
+
+    <div class="car-grid">
+
+
+        <!-- CAR 1 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'Mercedes-Benz G-Class',
+             '$185,000',
+             '$850 / day',
+             'Mercedes-Benz G-Class',
+             'Luxury SUV • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1525609004556-c46c7cf7cf62?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1525609004556-c46c7cf7cf62?auto=format&fit=crop&w=1200&q=80"
+                     alt="Mercedes G-Class">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    LUXURY SUV
+                </p>
+
+                <h3>Mercedes-Benz G-Class</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; AWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$185,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$850</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CAR 2 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'BMW 7 Series',
+             '$118,000',
+             '$600 / day',
+             'BMW 7 Series',
+             'Luxury Sedan • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80"
+                     alt="BMW luxury car">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    EXECUTIVE SEDAN
+                </p>
+
+                <h3>BMW 7 Series</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; AWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$118,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$600</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CAR 3 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'Porsche 911 Carrera',
+             '$145,000',
+             '$750 / day',
+             'Porsche 911 Carrera',
+             'Sports Car • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                     alt="Porsche 911">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    SPORTS CAR
+                </p>
+
+                <h3>Porsche 911 Carrera</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; RWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$145,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$750</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CAR 4 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'Range Rover Autobiography',
+             '$165,000',
+             '$700 / day',
+             'Range Rover Autobiography',
+             'Luxury SUV • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80"
+                     alt="Range Rover">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    PREMIUM SUV
+                </p>
+
+                <h3>Range Rover Autobiography</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; AWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$165,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$700</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CAR 5 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'Lamborghini Huracán',
+             '$265,000',
+             '$1,500 / day',
+             'Lamborghini Huracán',
+             'Supercar • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80"
+                     alt="Lamborghini">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    SUPERCAR
+                </p>
+
+                <h3>Lamborghini Huracán</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; AWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$265,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$1,500</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CAR 6 -->
+
+        <div class="car-card"
+             onclick="showCar(
+             'Rolls-Royce Cullinan',
+             '$420,000',
+             '$2,000 / day',
+             'Rolls-Royce Cullinan',
+             'Ultra Luxury SUV • 2025 • Automatic',
+             'https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=1200&q=80'
+             )">
+
+            <div class="car-image">
+
+                <img src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=1200&q=80"
+                     alt="Rolls Royce Cullinan">
+
+                <span class="availability">
+                    Available
+                </span>
+
+            </div>
+
+            <div class="car-info">
+
+                <p class="category">
+                    ULTRA LUXURY
+                </p>
+
+                <h3>Rolls-Royce Cullinan</h3>
+
+                <p class="spec">
+                    2025 &nbsp; • &nbsp; Automatic &nbsp; • &nbsp; AWD
+                </p>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>BUY FROM</small>
+                        <strong>$420,000</strong>
+                    </div>
+
+                    <div>
+                        <small>RENT / DAY</small>
+                        <strong>$2,000</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about-section">
+
+    <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80"
+             alt="Luxury automobile">
+
+        <div class="experience-box">
+            <strong>12+</strong>
+            <span>Years of Excellence</span>
+        </div>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <p class="small-title">
+            OUR STORY
+        </p>
+
+        <h2>
+            Born From A
+            <span>Passion For Excellence</span>
+        </h2>
+
+        <p>
+            EliteDrive Luxury Motors began with a simple dream:
+            to make extraordinary automobiles accessible to people
+            who appreciate performance, elegance and exceptional
+            craftsmanship.
+        </p>
+
+        <p>
+            Founded in the United States by a small group of
+            automotive enthusiasts, EliteDrive started with just
+            a handful of carefully selected luxury vehicles.
+            Through dedication, trust and an uncompromising
+            commitment to quality, we grew into a premium
+            automotive company serving clients across the USA.
+        </p>
+
+        <p>
+            Today, we offer both luxury vehicle sales and
+            premium rental services. Whether you are looking
+            for your dream car or need an unforgettable vehicle
+            for a special occasion, our team is ready to make
+            your experience exceptional.
+        </p>
+
+        <div class="about-points">
+
+            <div>
+                <span>01</span>
+                <p>Premium Vehicles</p>
+            </div>
+
+            <div>
+                <span>02</span>
+                <p>Trusted Service</p>
+            </div>
+
+            <div>
+                <span>03</span>
+                <p>Nationwide Support</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services">
+
+    <div class="section-heading">
+
+        <p>WHAT WE OFFER</p>
+
+        <h2>
+            More Than Just
+            <span>Cars</span>
+        </h2>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon">◆</div>
+
+            <h3>Luxury Car Sales</h3>
+
+            <p>
+                Find your dream vehicle from our collection
+                of premium and exotic automobiles.
+            </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">◇</div>
+
+            <h3>Premium Rentals</h3>
+
+            <p>
+                Experience luxury without ownership with
+                our flexible daily and weekly rental options.
+            </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">✦</div>
+
+            <h3>Concierge Service</h3>
+
+            <p>
+                Our specialists are available to help you
+                select, purchase or rent your perfect car.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-content">
+
+        <p class="small-title">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Your Dream Car
+            <span>Is Waiting.</span>
+        </h2>
+
+        <p>
+            Have questions about a vehicle, rental availability
+            or purchasing? Contact our luxury automotive team.
+        </p>
+
+
+        <div class="contact-details">
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/15551234567"
+               target="_blank"
+               class="contact-item">
+
+                <div class="contact-icon">WA</div>
+
+                <div>
+                    <small>WHATSAPP</small>
+                    <strong>Chat With Us</strong>
+                </div>
+
+            </a>
+
+
+            <!-- Email -->
+            <a href="mailto:info@elitedrivemotors.com"
+               class="contact-item">
+
+                <div class="contact-icon">@</div>
+
+                <div>
+                    <small>EMAIL</small>
+                    <strong>info@elitedrivemotors.com</strong>
+                </div>
+
+            </a>
+
+
+            <!-- Phone -->
+            <a href="tel:+15551234567"
+               class="contact-item">
+
+                <div class="contact-icon">☎</div>
+
+                <div>
+                    <small>PHONE</small>
+                    <strong>+1 (555) 123-4567</strong>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact-box">
+
+        <h3>Visit EliteDrive</h3>
+
+        <p>
+            Luxury Automotive Center
+            <br>
+            Beverly Hills, California
+            <br>
+            United States
+        </p>
+
+        <a href="mailto:info@elitedrivemotors.com"
+           class="gold-button">
+            Send An Email
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span>ELITE</span>DRIVE
+    </div>
+
+    <p>
+        Luxury without compromise.
+    </p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 EliteDrive Luxury Motors. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- ================= CAR POPUP ================= -->
+
+<div id="carModal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-button"
+                onclick="closeCar()">
+            ×
+        </button>
+
+        <img id="modalImage"
+             src=""
+             alt="Selected car">
+
+        <div class="modal-details">
+
+            <p class="category">
+                PREMIUM VEHICLE
+            </p>
+
+            <h2 id="modalName"></h2>
+
+            <p id="modalDescription"></p>
+
+            <div class="modal-prices">
+
+                <div>
+                    <small>SALE PRICE</small>
+                    <strong id="modalSale"></strong>
+                </div>
+
+                <div>
+                    <small>RENTAL PRICE</small>
+                    <strong id="modalRental"></strong>
+                </div>
+
+            </div>
+
+            <div class="modal-buttons">
+
+                <a href="https://wa.me/15551234567"
+                   target="_blank"
+                   class="whatsapp-button">
+                    WhatsApp
+                </a>
+
+                <a href="mailto:info@elitedrivemotors.com"
+                   class="email-button">
+                    Email Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= INTERNAL JAVASCRIPT ================= -->
+
+<script>
+
+function showCar(name, salePrice, rentalPrice, description, specs, image) {
+
+    document.getElementById("modalName").textContent = name;
+
+    document.getElementById("modalSale").textContent = salePrice;
+
+    document.getElementById("modalRental").textContent = rentalPrice;
+
+    document.getElementById("modalDescription").textContent =
+        description + " • " + specs;
+
+    document.getElementById("modalImage").src = image;
+
+    document.getElementById("carModal").classList.add("active");
+
+    document.body.style.overflow = "hidden";
+}
+
+
+function closeCar() {
+
+    document.getElementById("carModal").classList.remove("active");
+
+    document.body.style.overflow = "auto";
+}
+
+
+window.onclick = function(event) {
+
+    const modal = document.getElementById("carModal");
+
+    if (event.target === modal) {
+
+        closeCar();
+
+    }
+
+};
+
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+
+        closeCar();
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>
